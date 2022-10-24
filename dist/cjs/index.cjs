@@ -50,4 +50,4 @@ async function processing(urlPath, method) {
     );
   });
 }
-module.exports = processing
+module.exports = processing;
