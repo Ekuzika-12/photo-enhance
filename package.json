@@ -1,6 +1,6 @@
 {
   "name": "@xct007/photo-enhance",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "enhance blur photo, recolor B&W photo, HDR.",
   "exports": {
     ".": {
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/xct007/photo-enhance.git"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "keywords": [
     "photo",

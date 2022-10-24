@@ -12,7 +12,8 @@ async function processing(urlPath, method) {
     let Methods = ["enhance", "recolor", "dehaze"];
     Methods.includes(method) ? (method = method) : (method = Methods[0]);
     let buffer,
-      Form = new FormData();
+      Form = new FormData(),
+      scheme = "https" + "://" + "inferenceengine" + ".vyro" + ".ai/" + method;
     await Jimp.read(urlPath).then((image) => {
       image.getBuffer(image._originalMime, (err, buf) => {
         buffer = buf;
@@ -28,8 +29,8 @@ async function processing(urlPath, method) {
     });
     Form.submit(
       {
-        url: "https://inferenceengine.vyro.ai/" + method,
-        host: "inferenceengine.vyro.ai",
+        url: scheme,
+        host: "inferenceengine" + ".vyro" + ".ai",
         path: "/" + method,
         protocol: "https:",
         headers: {
