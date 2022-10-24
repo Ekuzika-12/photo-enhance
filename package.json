@@ -1,0 +1,30 @@
+{
+  "name": "photo-enhance",
+  "version": "1.0.0",
+  "description": "enhance blur photo, recolor B&W photo, HDR.",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs"
+    }
+  },
+  "main": "./dist/cjs/index.cjs",
+  "types": "./dist/esm/index.mjs",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xct007/photo-enhance.git"
+  },
+  "keywords": [
+    "photo",
+    "enhance"
+  ],
+  "author": "FrierenDv",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xct007/photo-enhance/issues"
+  },
+  "homepage": "https://github.com/xct007/photo-enhance#readme"
+}
