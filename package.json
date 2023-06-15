@@ -1,5 +1,5 @@
 {
-  "name": "@xct007/photo-enhance",
+  "name": "@xyroinee/photo-enhance",
   "version": "1.0.1",
   "description": "enhance blur photo, recolor B&W photo, HDR.",
   "exports": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xct007/photo-enhance.git"
+    "url": "git+https://github.com/xyroinee/photo-enhance.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -24,12 +24,12 @@
     "photo",
     "enhance"
   ],
-  "author": "FrierenDv",
+  "author": "Xyroinee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xct007/photo-enhance/issues"
+    "url": "https://github.com/Xyroinee/photo-enhance/issues"
   },
-  "homepage": "https://github.com/xct007/photo-enhance#readme",
+  "homepage": "https://github.com/Xyroinee/photo-enhance#readme",
   "dependencies": {
     "form-data": "^4.0.0",
     "jimp": "^0.16.2"
