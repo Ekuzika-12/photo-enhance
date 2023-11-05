@@ -1,5 +1,5 @@
 {
-  "name": "@xyroinee/photo-enhance",
+  "name": "ekuzika-12/photo-enhance",
   "version": "1.0.1",
   "description": "enhance blur photo, recolor B&W photo, HDR.",
   "exports": {
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xyroinee/photo-enhance.git"
+    "url": "git+https://github.com/Ekuzika-12/photo-enhance.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
@@ -27,9 +27,9 @@
   "author": "Xyroinee",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Xyroinee/photo-enhance/issues"
+    "url": "https://github.com/Ekuzika-12/photo-enhance/issues"
   },
-  "homepage": "https://github.com/Xyroinee/photo-enhance#readme",
+  "homepage": "https://github.com/Ekuzika-12/photo-enhance#readme",
   "dependencies": {
     "form-data": "^4.0.0",
     "jimp": "^0.16.2"
