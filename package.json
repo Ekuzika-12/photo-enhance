@@ -1,5 +1,5 @@
 {
-  "name": "ekuzika-12/photo-enhance",
+  "name": "@ekuzika-12/photo-enhance",
   "version": "1.0.1",
   "description": "enhance blur photo, recolor B&W photo, HDR.",
   "exports": {
@@ -24,7 +24,7 @@
     "photo",
     "enhance"
   ],
-  "author": "Xyroinee",
+  "author": "Ekuzikaa",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Ekuzika-12/photo-enhance/issues"
